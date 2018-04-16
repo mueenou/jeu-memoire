@@ -1,0 +1,68 @@
+header {
+  background-color: #EEEEEE;
+  text-align: center;
+  height: 8rem;
+  line-height: 8rem;
+  font-size: 2rem;
+}
+
+#box-container {
+  background-color: #DDDDFF;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 850px;
+  height: 500px;
+  margin: 5rem auto;
+}
+table {
+  margin-top: 25px;
+}
+table td {
+  width: 100px;
+  height: 100px;
+
+}
+
+.carte {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+
+}
+
+
+.cache {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+  margin: 5px;
+  box-shadow: 0 0 7px 1px;
+}
+
+.cache:hover {
+  background-color: #BBBBBB;
+  cursor: pointer;
+}
+
+.image {
+  background-image: url('../images/cards.png');
+  /* background-position: 0 -100px; */
+  width: 100px;
+  height: 100px;
+  display: none;
+  margin: 5px;
+}
+
+.time-bar {
+  margin: 0 auto;
+  width: 600px;
+  height: 50px;
+  border: 1px solid #000;
+}
+
+.red-box {
+  height: 50px;
+  width: 0px;
+  background-color: #FF0000;
+}
